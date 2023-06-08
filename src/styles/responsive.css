@@ -1,0 +1,40 @@
+@media screen and (min-width: 500px) {
+    .nav__list{
+        grid-template-columns: repeat(3, 1fr);
+        padding-right: 20px;
+        margin: 0;
+        text-align: right;
+        transform: translate(0);
+        position: relative;
+        color: white;
+        background-color: transparent;
+    }
+    .nav{
+        background-color: transparent;
+        color: white;
+        font-weight: 800;
+    }
+    .nav__item a {
+        color: white;
+    }
+    #hamburger{
+        display: none;
+    }
+    .post-list-thumbnail{
+        max-width: 200px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .hero__inner{
+        font-size: 2.2em;
+    }
+
+    .hero__tagline{
+    font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .nav{
+        font-weight: 800;
+    }
+}
